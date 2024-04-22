@@ -1,49 +1,70 @@
+/* file: styles.css */
 body {
-    font-family: Arial,  sans-serif;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
 }
 
-header {
-text-align: center;
-padding: 10px;
-background-color: #f4f4f4;
+h1 {
+  font-size: 40px;
 }
 
-
-header img {
- width: 150px;
- height: 150px;
- border-radius: 50%;
- margin-bottom: 10px;
+h2 {
+  font-size: 30px;
 }
 
-section {
-    margin: 20px;
-
+.established {
+  font-style: italic;
 }
 
-.project {
- width: 200px;
- height: 200px;
- border: 1px solid;
- margin: 10px;
- display: inline-block;
- text-align: center;
- line-height: 200px;
+h1, h2, p {
+  text-align: center;
 }
 
-
-h1 h2 {
- color: #333;   
-
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
 
-bio work {
-    background-color: #e9e9e9;
-    padding: 15px;
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
 
-footer {
-background-color: #f4f4f4;
-text-align: center;    
-padding: 10px;
+.bottom-line {
+  margin-top: 25px;
 }
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;  
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
+
+/* User Editable Region */
+
+.footer{
+    
+}
+
+/* User Editable Region */
